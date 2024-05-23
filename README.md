@@ -1,1 +1,4 @@
 # Building-a-RAG-System
+## As we know that LLMs like Gemini lack the company specific information. But this latest information is available via PDFs, Text Files, etc... Now if we can connect our LLM with these sources, we can build a much better application.
+
+## Using LangChain framework, I built a Retrieval Augmented Generation (RAG) system that can utilize the power of LLM like Gemini 1.5 Pro to answer questions on the “Leave No Context Behind” paper published by Google on 10th April 2024. In this process, external data(i.e. the Leave No Context Behind Paper) is retrieved and then passed to the LLM during the generation step.
